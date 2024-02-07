@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 *{
-    padding: 0;
+    padding: 0px;
     margin: 0;
     box-sizing: border-box;
 }
@@ -64,7 +64,9 @@ body{
     font-size: 1.1rem;
     font-family: inherit;
     outline: 0;
-    border: 14px solid var(--tenne-tawny);
+    border: 14px solid#ffbe98;
+
+    /* border: 14px solid var(--tenne-tawny); */
     color: var(--tenne-tawny);
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
@@ -97,7 +99,7 @@ body{
     margin: 2.4rem 0;
 }
 .meal-item{
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
@@ -119,8 +121,8 @@ body{
 }
 .recipe-btn{
     text-decoration: none;
-    color: #fff;
-    background: var(--tenne-tawny);
+    color:white;
+    background: #ffbe98;
     font-weight: 500;
     font-size: 1.1rem;
     padding: 0.75rem 0;
@@ -152,8 +154,8 @@ body{
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
-    color: var(--tenne-tawny);
-    background: black;
+    color: black;
+    background: rgba(78, 73, 73, 0);
 
     /* background: var(--tenne-tawny); */
     border-radius: 1rem;
@@ -254,7 +256,7 @@ body{
     margin-bottom: 5%;
 }
 .recipe-link{
-    margin: 1.4rem 0;
+    /* margin: -1.0rem 0; */
 }
 .recipe-link a{
     color: #fff;
